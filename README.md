@@ -10,20 +10,7 @@ This repository contains two different implementations for predicting fuel cell 
 
 ## Implementations
 
-### 1. Custom Implementation (method1_sklearn.py)
-This implementation uses scikit-learn to create a custom machine learning pipeline with the following models:
-- Linear Regression
-- Decision Tree
-- Random Forest
-- Support Vector Regression (SVR)
-
-Key features:
-- Manual data preprocessing using StandardScaler
-- Custom metric calculations (MSE, RMSE, MAE, R² Score)
-- 70/30 train-test split
-- Explicit control over the machine learning pipeline
-
-### 2. PyCaret Implementation (method2_pycaret.py)
+### 1. PyCaret Implementation (method1_pycaret.py)
 This implementation uses PyCaret's automated machine learning capabilities for:
 - Automated model comparison
 - Built-in preprocessing
@@ -35,6 +22,19 @@ Key features:
 - Built-in visualization capabilities
 - 70/30 train-test split
 - Streamlined implementation
+
+### 2. Custom Implementation (method2_sklearn.py)
+This implementation uses scikit-learn to create a custom machine learning pipeline with the following models:
+- Linear Regression
+- Decision Tree
+- Random Forest
+- Support Vector Regression (SVR)
+
+Key features:
+- Manual data preprocessing using StandardScaler
+- Custom metric calculations (MSE, RMSE, MAE, R² Score)
+- 70/30 train-test split
+- Explicit control over the machine learning pipeline
 
 ##  Install required packages
 ```bash

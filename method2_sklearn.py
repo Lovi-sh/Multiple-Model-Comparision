@@ -41,3 +41,7 @@ def run_models():
 results = run_models().round(4)
 print("\nModel Performance Comparison:")
 print(results.to_string(index=False))
+
+best_model = results.loc[results['R2 Score'].idxmax()]
+print(f"\nBest Model: {best_model['Model']}")
+print(f"R2 Score of Best Model: {best_model['R2 Score']}")

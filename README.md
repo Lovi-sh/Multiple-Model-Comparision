@@ -36,34 +36,10 @@ Key features:
 - 70/30 train-test split
 - Streamlined implementation
 
-## Setup and Installation
-
-1. Clone this repository
-```bash
-git clone [repository-url]
-```
-
-2. Install required packages
+##  Install required packages
 ```bash
 pip install scikit-learn pandas numpy
 pip install pycaret[full]
-```
-
-3. Download the dataset and place it in the project directory
-```bash
-Fuel_cell_performance_data-Full.csv
-```
-
-## Usage
-
-### For Custom Implementation
-```python
-python method1.py
-```
-
-### For PyCaret Implementation
-```python
-python method2.py
 ```
 
 ## Results
